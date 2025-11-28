@@ -7,8 +7,5 @@ def get_middle_letters(word):
     else:
         return word[middle]
 
-word1 = 'test'
-word2 = 'testing'
-
-print(f"Для слова '{word1}': {get_middle_letters(word1)}")
-print(f"Для слова '{word2}': {get_middle_letters(word2)}")
+word = input()
+print(get_middle_letters(word))
