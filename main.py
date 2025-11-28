@@ -7,5 +7,6 @@ def get_middle_letters(word):
     else:
         return word[middle]
 
+
 word = input()
 print(get_middle_letters(word))
